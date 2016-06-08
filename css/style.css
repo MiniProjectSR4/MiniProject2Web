@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wrapper{
 	background-color: #e1d5ca;
 }
@@ -25,3 +26,121 @@
 	padding: 50px 0;
 	background-color: yellow;
 }*/
+=======
+@font-face{
+	src: url(../fonts/DroidSerif-Italic.ttf);
+	font-family: 'Droid Serif';
+}
+@font-face{
+	src: url(../fonts/Montserrat-Bold.ttf);
+	font-family: 'Montserrat';
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Droid Serif';
+	font-size: 1.8vmax;
+}
+header{
+	margin: 0 auto;
+	margin-top: 10px;
+	line-height: 40px;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+.service{
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	margin-top: 10px;
+}
+.service span{
+
+	font-size: 1.8vmax;
+	font-weight: bold;
+	color: #000000;
+}
+.service p{
+	font-size: 20px;
+	color: #459e18;
+}
+.service a{
+	text-decoration: none;
+	font-size: 1vmax;
+	margin-left: 20px;
+	color: #459e18;
+}
+.service a:hover,a:active,a:link {
+	text-decoration: none;
+	color: #606060;
+	transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.navbar{
+	border-radius: 0px;
+	border: none;
+	margin-bottom: 0px;
+}
+.navbar-default{
+	background-color: #459e18;	
+}
+.navbar-nav>li>a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3vmax !important;
+	border-right: 1px solid #ffffff;
+	padding: 25px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #ffffff;
+	text-align: center;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ffffff;
+	background-color: #2d2d2d;
+	transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.navbar-right{
+	margin-top: 15px;
+}
+footer{
+	background-color: #f2f2f2;
+	margin-bottom: 0;
+	padding: 15px 0px;
+	overflow: hidden;
+}
+footer .navbar-nav>li>a{
+	border: none;
+	padding: 25px 15px;
+	text-align: center;
+	font-size: 1.1vmax !important;
+	margin-top: 35px;
+	color: #2d2d2d;
+}
+footer .navbar-nav>li>a:hover{
+	color: #808080;
+	background-color: #f2f2f2;
+}
+footer p{
+	font-size: small;
+    line-height: 45px;
+}
+.fa-2x {
+    font-size: 1.5em;
+    margin-top: 45px;
+}
+.fa-2x:hover{
+	color: gray;
+	transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+  }
+>>>>>>> refs/remotes/origin/SubMaster
