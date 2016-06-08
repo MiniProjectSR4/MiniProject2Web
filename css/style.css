@@ -1,0 +1,26 @@
+.wapper{
+	
+}
+.container-fluid{
+	padding: 0px;
+	background-color: #fbfbfb;
+	border-bottom: 1px solid #bdafa4;
+}
+.logo{
+	height: 115px;
+	background-color: #fbfbfb;
+}
+.menu1{
+	/*height: 50px;*/
+	/*padding: 15px 0px;*/
+	background-color: #286090;
+	border-radius: 5px;
+}
+.menu2{
+	padding: 5px 0px;
+	background-color: #fbfbfb;
+}
+/*.header>.logo{
+	padding: 50px 0;
+	background-color: yellow;
+}*/
