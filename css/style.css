@@ -1,5 +1,5 @@
-.wapper{
-	
+.wrapper{
+	background-color: #e1d5ca;
 }
 .container-fluid{
 	padding: 0px;
@@ -15,6 +15,7 @@
 	/*padding: 15px 0px;*/
 	background-color: #286090;
 	border-radius: 5px;
+	margin-bottom: -20px;
 }
 .menu2{
 	padding: 5px 0px;
