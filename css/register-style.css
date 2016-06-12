@@ -108,93 +108,7 @@ hr {
 .container-fluid{
 	padding: 0px;
 }
-/*
-.overslide{
-	position: absolute;
-	z-index: 100;
-	background-color: #333;
-	height: 500px;
-}
-.carousel-control.right, .carousel-control.left {
-    background-image: none;
-}
-.carousel-caption {
-    left: 60%;
-    top: 30% !important;
-    width: 400px;
-    background-color: #2d2d2d;
-    opacity: 0.8;
-    bottom:110px;
-    font-size: 20px;
-}
-.carousel-caption p{
-	text-align: justify;
-	padding: 0px 15px;
-	color: #ffffff;
-}
-.btn-default {
-    color: #ffffff;
-    background-color: #2d2d2d;
-    opacity: 1px;
-    border-color: #ccc;
-    margin-bottom: 0px;
-}
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    margin: auto;
-}
-.thumbnail{
-	box-shadow: 0px 0px 5px 1px #ddd;
-	padding-bottom: 15px;
-	line-height: 1.4;
-}
-.caption p{
-	font-size: 17px;
-	color: #286090;
-	font-weight: bold;
-}
-.thumbnail .caption{
-	line-height: 25px;
-}
-.descript .btn-primary{
-	background-color: #286090;
-	position: relative;
-	left: 40px;
-	bottom: -20px;
-}
-.descript .bid{
-	position: relative;
-	left: 25px;
-}
-.title{
-	font-size: 16px;
-	color: #2d2d2d;
-}
-h5{
-	font-weight: bold;
-}
-h2{
-	margin-left: 20px;
-}
-span.price{
-	position: relative;
-    right: 5px;
-}
 
-.list-group{
-	margin-top: 72px;
-    font-size: initial;  
-    box-shadow: 0px 0px 5px 1px #ddd;
-}
-.list-group-item{
-	border:none;
-}
-.categories a{
-	color: #2d2d2d;
-}
-.categories a:hover{
-	color: #286090;
-}*/
 footer{
 	background-color: #f2f2f2;
 	margin-bottom: 0;
@@ -229,13 +143,8 @@ footer p{
     -webkit-transition: all 0.5s ease-in-out;
 }
 
-
-/*content style*/
-.sub-category-search{
-	margin-top: 10px;
-}
 /*decription body*/
-.list-group{
+.list-group, .panel-body{
 	font-family: verdana;
 	font-size: 14px;
 	font-weight: bold;
@@ -243,10 +152,18 @@ footer p{
 .list-group > .list-group-item > p{
 	font-weight: normal;
 }
-.list-group > .list-group-item > p > span{
-	font-weight: bold;
-}
-td{
+.form-group p{
+	font-family: verdana;
+	font-size: 14px;
 	font-weight: normal;
+	padding-top: 5px;
 }
+.glyphicon-star{
+	color: red;
+	font-size: 8px;
+}
+small{
+	color: gray;
+}
+
 

@@ -5,7 +5,7 @@
 	<title>Cambodia Auction</title>
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/detail-style.css">
+	<link rel="stylesheet" type="text/css" href="../css/login-style.css">
 	<link rel="stylesheet" type="text/css" href="../css/media.css">
 </head>
 <body>
@@ -28,7 +28,7 @@
 				      <div class="input-group-addon">Search</div>
 				    </div>
 				  </div>				
-	      </form>
+	      		</form>
 				</div>
 			</div>
 		</div>
@@ -51,7 +51,7 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav slide">
-	        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+	        <li class="active"><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
 	          <ul class="dropdown-menu">
@@ -88,110 +88,44 @@
 	<!-- detail content information -->
 	<div class="content">
 		<div class="container-fluid">
-			<!-- sub category list view -->
-			<div class="col-md-12">
+			<!-- form register -->
+			<div class="col-md-6">
 				<div class="list-group">
+					<div class="list-group-item"><small>LOG IN</small></div>
 					<div class="list-group-item">
-						<p class="sub-category-search">HOME / CATEGORY / HOUSE</p>
+						<form class="form-horizontal" role="form">
+						  <div class="form-group">
+						    <label class="control-label col-sm-3" for="uname">Username</label>
+						    <div class="col-sm-8">
+						      <input type="email" class="form-control" id="uname">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label class="control-label col-sm-3" for="pwd">Password</label>
+						    <div class="col-sm-8"> 
+						      <input type="password" class="form-control" id="pwd">
+						    </div>
+						  </div>
+						  <div class="form-group"> 
+						    <div class="col-sm-offset-3 col-sm-10">
+						      <div class="checkbox">
+						        <label><input type="checkbox"> Remember me</label>
+						      </div>
+						    </div>
+						  </div>
+						  <div class="form-group"> 
+						    <div class="col-sm-offset-3 col-sm-10">
+						      <button type="submit" class="btn btn-primary">Submit</button>
+						    </div>
+						  </div>
+						</form>
 					</div>
 				</div>
-			</div>
-			<!-- image and some detail information -->
-			<div class="row">
-				<!-- colunm for image content -->
-				<div class="col-md-5">
-					<div class="list-group">
-						<div class="list-group-item">
-							<p>REMAINING TIME: <span>5 DAYS, 5 HOURS</span></p>
-						</div> <!-- end remain time -->
-						<div class="list-group-item">
-							<img src="../images/slide2.jpg" class="img-responsive">
-						</div>
-					</div> <!-- end div content left -->
-				</div>
+			</div> <!-- end div col-md-6 -->
 
-				<!-- colunm for information content -->
-				<div class="col-md-7">
-					<div class="list-group">
-						<div class="list-group-item">
-							<h3>Beautiful Home in Rockport Village</h3>
-							<h4>Lakeside, 3 car garage</h4>
-						</div>
-						<div class="list-group-item">
-							<table class="table table-hover">
-								<thead>
-									<tr>
-							        	<td><b>Price</b></td>
-							        	<td>150,000.00$</td>
-							      	</tr>
-								</thead>
-							    <tbody>
-							      	<tr>
-							        	<th>Quantity</th>
-							        	<td>
-							        		<input type="text" class="form-control">
-							        	</td>
-							      	</tr>
-							      	<tr>
-							        	<th></th>
-							        	<td>
-							        		<button class="btn btn-success btn-block">Buy Now</button>
-							        	</td>
-							      	</tr>
-							      	<tr>
-							        	<td colspan="2">
-							      			This item is available for direct purchase from the seller. No bidding is required.
-							        	</td>
-							      	</tr>
-							      	<tr>
-							        	<th>Purchase Price</th>
-							        	<td>150,000.00 Per Item</td>
-							      	</tr>
-							      	<tr>
-							        	<th>Quantity Available</th>
-							        	<td>1</td>
-							      	</tr>
-							      	<tr>
-							        	<th>Available Until</th>
-							        	<td>Sunday, June 20, 2016 12:00 AM</td>
-							      	</tr>
-							      	<tr>
-							        	<th>Available Since</th>
-							        	<td>Sunday, June 15, 2016 12:00 AM</td>
-							      	</tr>
-							      	<tr>
-							        	<th>Listed By</th>
-							        	<td>*****</td>
-							      	</tr>
-							    </tbody>
-							    
-							</table>
-						</div>
-					</div> <!-- end div content right -->
-				</div>
-			</div> <!-- end div row -->
-			
-			<!-- more description of item -->
-			<div class="col-md-12">
-				<!-- group description infor -->
-				<div class="list-group">
-					<div class="list-group-item">DESCRIPTION</div>
-					<div class="list-group-item">
-						<p>
-						Hermosa Beach, California, Residential 2 Bathroom 3 Bedroom
-						</p>
-					</div>
-				</div>
-				<!-- group payment infor -->
-				<div class="list-group">
-					<div class="list-group-item">PAYMENT OPTION</div>
-					<div class="list-group-item">
-						<P>
-						Seller Accepts PayPal <br>
-						Seller Accepts Credit Cards
-						</P>
-					</div>
-				</div>
+			<div class="col-md-6">
+				<h3>Not Registered?</h3>
+				<p>If you are not already a registered member, please <a href="register.html">Register Now</a></p>
 			</div>
 		</div> <!-- end div container -->
 	</div> <!-- end div main content information -->
